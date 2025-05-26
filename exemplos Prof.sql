@@ -31,3 +31,11 @@ FROM animal
 INNER JOIN raca
 ON fk_raca = id_raca
 order by peso_animal;
+
+
+/*EX4*/
+SELECT nome_animal, peso_animal, sexo_animal, descricao_raca, nome cliente
+FROM animal
+INNER JOIN raca ON fk_raca = id_raca
+INNER JOIN cliente ON fk_cliente = id_cliente
+order by peso_animal;
