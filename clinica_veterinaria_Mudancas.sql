@@ -18,3 +18,4 @@ SELECT id_animal, nome_animal, peso_animal
 FROM animal
 WHERE peso_animal > 5 and peso_animal <12
 ORDER BY peso_animal;
+
